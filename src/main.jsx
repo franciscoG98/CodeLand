@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Login from './Login.jsx'
+import Juegos from './views/juegos/Juegos.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Login />,
+  },
+  {
+    path: "/juegos",
+    element: <Juegos />,
   }
 ]);
 

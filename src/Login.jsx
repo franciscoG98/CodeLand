@@ -1,6 +1,6 @@
 import './Login.scss'
 
-function Login() {
+const Login = () => {
 
   return(
     <main className='login_container'>
