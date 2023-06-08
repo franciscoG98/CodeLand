@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Login from './Login.jsx'
 import Juegos from './views/juegos/Juegos.jsx'
+import Juego from './views/juego/Juego.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/juegos",
     element: <Juegos />,
+  },
+  {
+    path: "/juegos/:id",
+    element: <Juego />,
   }
 ]);
 

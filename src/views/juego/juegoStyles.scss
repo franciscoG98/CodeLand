@@ -1,0 +1,28 @@
+.juego_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.juego {
+    gap: 15px
+}
+
+.juego_img {
+    height: 300px;
+    width: fit-content;
+}
+
+.juego_description {
+    width: 370px;
+}
+
+.comprador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+}
