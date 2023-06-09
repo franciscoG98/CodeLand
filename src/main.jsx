@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Login from './Login.jsx'
 import Juegos from './views/juegos/Juegos.jsx'
 import Juego from './views/juego/Juego.jsx'
+import AgregarComprador from './views/agregarComprador/agregarComprador.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/juegos/:id",
     element: <Juego />,
+  },
+  {
+    path: "/add-buyer",
+    element: <AgregarComprador />,
   }
 ]);
 
