@@ -1,6 +1,6 @@
 import juegos from "./mockJuegos.js";
 import "./juegosStyles.scss";
-import Card from "../../components/card/Card.jsx";
+import Card from "../../components/cardJuego/Card.jsx";
 
 const Juegos = () => {
 

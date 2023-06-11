@@ -4,6 +4,7 @@ import Login from './Login.jsx'
 import Juegos from './views/juegos/Juegos.jsx'
 import Juego from './views/juego/Juego.jsx'
 import AgregarComprador from './views/agregarComprador/agregarComprador.jsx'
+import Empleados from './views/empleados/empleados.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/add-buyer",
     element: <AgregarComprador />,
+  },
+  {
+    path: "/empleados",
+    element: <Empleados />,
   }
 ]);
 
